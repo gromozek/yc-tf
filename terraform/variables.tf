@@ -1,5 +1,11 @@
-#keys
+#token
 variable "token" {
+  type      = string
+  sensitive = true
+}
+
+#key
+variable "sshkey" {
   type      = string
   sensitive = true
 }
